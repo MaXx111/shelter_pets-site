@@ -6,9 +6,13 @@ const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   devtool: 'source-map',
+  entry: {
+    index: './src/index.js',
+    pets: './src/pets/pets.js',
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'app.bundle.js',
+    filename: '[name].[hash:20].js',
   },
 
   module: {
@@ -40,9 +44,19 @@ module.exports = {
   },
 
   plugins: [
+
     new HtmlWebpackPlugin({
-      template: './src/index.html',
       filename: 'index.html',
+      template: './src/index.html',
+      chunks: ['index'],
+      inject: true,
+    }),
+
+    new HtmlWebpackPlugin({
+      filename: 'pets.html',
+      template: './src/pets/pets.html',
+      chunks: ['pets'],
+      inject: true,
     }),
 
     new MiniCssExtractPlugin(),
