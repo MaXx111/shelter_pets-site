@@ -277,12 +277,14 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #FAFAFA;;
+    background-color: #FAFAFA;
     max-width: 270px;
+    transition: 0.5s;
 }
 
 .pets-slider-article:hover {
     cursor: pointer;
+    background-color: #FFFFFF;
 }
 
 .pets-article-img {

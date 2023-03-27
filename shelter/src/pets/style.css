@@ -7,9 +7,6 @@ html {
 }
 
 body {
-    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
-    width: 100%;
-    height: 100%;
     background-repeat: no-repeat;
     max-width: 1280px;
     margin: auto;
@@ -42,7 +39,7 @@ body {
 header {
     position: relative;
     z-index: 2;
-    padding: 30px 40px 90px 40px;
+    padding: 30px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +54,7 @@ header {
 }
 
 .header-logo-title {
-    color: #F1CDB3;
+    color: #545454;
     font-size: 32px;
     line-height: 110%;
     letter-spacing: 0.06em; 
@@ -65,7 +62,7 @@ header {
 
 .header-logo-subtitle {
     display: block;
-    color: #FFFFFF;
+    color: #292929;
     letter-spacing: 0.1em;
     font-size: 13px;
     line-height: 15px;
@@ -98,22 +95,22 @@ header {
     font-size: 15px;
     line-height: 160%;
     text-decoration: none;
-    color: #CDCDCD;
+    color: #545454;
     transition: 0.5s;
 
 }
 
 .header-nav-link:hover {
-    color: #FAFAFA;
+    color: #7a7474;
 }
 
 .active {
-    color: #FAFAFA;
+    color: #292929;
     border-bottom: 3px solid #F1CDB3;
 }
 
 .header-nav-link:active {
-    color: #FAFAFA;
+    color: #292929;
     border-bottom: 3px solid #F1CDB3;
 }
 
@@ -122,6 +119,221 @@ header {
 
 
 
+.pets {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px 100px 40px;
+    background: #F6F6F6;
+}
+
+.pets-title {
+    max-width: 400px;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-align: center;
+    padding: 0 0 30px 0;
+    align-self: center;
+}
+
+.pets-slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pets-slider-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+    max-width: 270px;
+    transition: 0.5s;
+    margin: 30px 0 0 0;
+}
+
+.pets-slider-article:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+.pets-article-img {
+    max-width: 270px;
+}
+
+.pets-article-text {
+    display: block;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    padding: 30px 0 30px 0;
+
+}
+
+.pets-article-link {
+    border-radius: 100px;
+    width: 188px;
+    display: block;
+    text-decoration: none;
+    margin: 0 0 25px 0;
+    align-self: center;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+.pets-article-link:hover {
+    background-color: #FDDCC4;
+    border: 2px solid #FDDCC4;
+}
+
+.pets-article-link:active {
+    background-color: #FAFAFA;
+    border: 2px solid #F1CDB3;
+}
+
+.pets-article-link-text {
+    display: block;
+    padding: 15px 45px;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    text-align: center;
+}
+
+
+
+
+.pets-links {
+    max-width: 355px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 60px 0 0 0;
+    align-self: center;
+}
+
+.link {
+    text-decoration: none;
+    transition: 0.5s;
+    margin: 0 20px 0 0;
+}
+
+.link:last-child {
+    margin: 0;
+}
+
+.back, .backback {
+    border: 2px solid #CDCDCD;
+    border-radius: 100px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    color: #CDCDCD;
+}
+
+.back:hover, .backback:hover {
+
+}
+
+.back:active, .backback:active {
+    
+}
+
+.back-symbol, .backback-symbol {
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+}
+
+.right, .rightright {
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    color: #292929;
+}
+
+.right:hover, .rightright:hover {
+    border: 2px solid #FDDCC4;
+    background-color: #FDDCC4;
+}
+
+.right:active, .rightright:active {
+    border: 2px solid #F1CDB3;
+    background-color: #F6F6F6;
+}
+
+.right-symbol, .rightright-symbol {
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+}
+
+.number {
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1CDB3;
+    color: #292929;
+}
+
+.number:hover {
+    border: 2px solid #FDDCC4;
+    background-color: #FDDCC4;
+}
+
+.number:active {
+    border: 2px solid #F1CDB3;
+    background-color: #F1CDB3;
+}
+
+.number-symbol {
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+}
+
+
+
+/* .pets-slider-arrow {
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 53px 0 0;
+    background-color: #F6F6F6;
+    transition: 0.5s;
+}
+
+.pets-slider-arrow:hover {
+    background-color: #FDDCC4;
+    border: 2px solid #FDDCC4;
+}
+
+.pets-slider-arrow:active {
+    background-color: #F6F6F6;
+    border: 2px solid #F1CDB3;
+} */
 
 
 
