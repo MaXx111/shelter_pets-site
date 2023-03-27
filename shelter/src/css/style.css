@@ -366,6 +366,7 @@ header {
 .help-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .help-list-link {
@@ -373,6 +374,7 @@ header {
     flex-direction: column;
     text-decoration: none;
     align-items: center;
+    margin: 0 120px 0 0;
 
 }
 
@@ -383,4 +385,89 @@ header {
     line-height: 115%;
     letter-spacing: 0.06em;
     color: #545454;
+}
+
+.help-list-link:nth-child(5n){
+    margin: 0;
+}
+.help-list-link:nth-child(9n){
+    margin: 0;
+}
+
+.donation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 100px 0;
+    background-color: #F6F6F6;
+
+}
+
+.donation-img {
+
+}
+
+.donation-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    padding: 0 0 0 30px;
+
+}
+
+.donation-info-title {
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    padding: 0 0 20px 0;
+
+}
+
+.donation-info-text {
+    display: block;
+    font-size: 15px;
+    line-height: 110%;  
+    letter-spacing: 0.06em;
+    color: #545454;
+    padding: 0 0 20px 0;
+
+}
+
+.donation-info-link {
+    text-decoration: none;
+    margin: 0 0 20px 0;
+    background: #F1CDB3;
+    border-radius: 9px;
+    max-width: 350px;
+}
+
+.donation-info-link:hover {
+    background: #FDDCC4;
+}
+
+.donation-info-link:active {
+    background: #F1CDB3;
+}
+.donation-info-link-text {
+    display: flex;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    padding: 10px 15px;
+}
+.donation-info-link-text::before {
+    content: url('../assets/image/credit-card.svg');
+    padding: 0 15px 0 0;
+}
+
+.donation-info-miniTxt {
+    display: block;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+
 }
