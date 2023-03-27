@@ -67,11 +67,6 @@ header {
     font-size: 13px;
     line-height: 15px;
     padding: 10px 0 0 0;
-
-}
-
-.header-nav {
-
 }
 
 .header-nav-list {
@@ -113,11 +108,6 @@ header {
     color: #292929;
     border-bottom: 3px solid #F1CDB3;
 }
-
-
-
-
-
 
 .pets {
     display: flex;
@@ -205,9 +195,6 @@ header {
     text-align: center;
 }
 
-
-
-
 .pets-links {
     max-width: 355px;
     border-radius: 100px;
@@ -238,14 +225,6 @@ header {
     align-items: center;
     background-color: #F6F6F6;
     color: #CDCDCD;
-}
-
-.back:hover, .backback:hover {
-
-}
-
-.back:active, .backback:active {
-    
 }
 
 .back-symbol, .backback-symbol {
@@ -309,33 +288,6 @@ header {
     line-height: 115%;
     letter-spacing: 0.06em;
 }
-
-
-
-/* .pets-slider-arrow {
-    border: 2px solid #F1CDB3;
-    border-radius: 100px;
-    width: 52px;
-    height: 52px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 53px 0 0;
-    background-color: #F6F6F6;
-    transition: 0.5s;
-}
-
-.pets-slider-arrow:hover {
-    background-color: #FDDCC4;
-    border: 2px solid #FDDCC4;
-}
-
-.pets-slider-arrow:active {
-    background-color: #F6F6F6;
-    border: 2px solid #F1CDB3;
-} */
-
-
 
 footer {
     background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;

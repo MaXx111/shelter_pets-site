@@ -53,7 +53,6 @@ header {
     text-decoration: none;
     align-items: center;
     transition: 0.5s;
-
 }
 
 .header-logo-title {
@@ -73,21 +72,15 @@ header {
 
 }
 
-.header-nav {
-
-}
-
 .header-nav-list {
     list-style-type: none;
     padding: 0;
     display: flex;
     flex-direction: row;
-
 }
 
 .header-nav-list-item {
     padding: 0 38px 0 0;
-
 }
 
 .header-nav-list-item:last-child{
@@ -135,7 +128,6 @@ header {
     line-height: 57.2px;
     color: #FFFFFF;
     padding: 0 0 42px 0;
-
 }
 
 .startScreen-info-text {
@@ -164,7 +156,6 @@ header {
 .startScreen-info-link:active {
     background: #F1CDB3;
 }
-
 
 .startScreen-info-link-text {
     display: block;
@@ -330,7 +321,6 @@ header {
     letter-spacing: 0.06em;
     color: #292929;
     text-align: center;
-
 }
 
 .pets-link {
@@ -420,10 +410,6 @@ header {
 
 }
 
-.donation-img {
-
-}
-
 .donation-info {
     display: flex;
     flex-direction: column;
@@ -438,7 +424,6 @@ header {
     letter-spacing: 0.06em;
     color: #545454;
     padding: 0 0 20px 0;
-
 }
 
 .donation-info-text {
@@ -448,7 +433,6 @@ header {
     letter-spacing: 0.06em;
     color: #545454;
     padding: 0 0 20px 0;
-
 }
 
 .donation-info-link {
@@ -467,6 +451,7 @@ header {
 .donation-info-link:active {
     background: #F1CDB3;
 }
+
 .donation-info-link-text {
     display: flex;
     font-size: 20px;
@@ -578,8 +563,8 @@ footer {
     line-height: 130%;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-
 }
+
 .footer-centerInfo-link {
     text-decoration: none;
     color: #F1CDB3;
@@ -601,7 +586,6 @@ footer {
     padding: 40px 0 40px 0;
     display: flex;
     letter-spacing: 0.06em;
-
 }
 
 .footer-centerInfo-boston::before {
