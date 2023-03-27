@@ -1,3 +1,263 @@
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: red;
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    max-width: 1280px;
+    margin: auto;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('../assets/fonts/Georgia/georgia.ttf');
+    font-style: normal; 
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../assets/fonts/Arial/arialmt.ttf');
+    font-style: normal; 
+    font-weight: 400;
+}
+
+.Georgia-normal {
+    font-family: Georgia;
+    font-weight: 400;
+}
+
+.Arial-normal {
+    font-family: Arial;
+    font-weight: 400;
+}
+
+header {
+    position: relative;
+    z-index: 2;
+    padding: 30px 40px 90px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo-link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.header-logo-title {
+    color: #F1CDB3;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.06em; 
+}
+
+.header-logo-subtitle {
+    display: block;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+    font-size: 13px;
+    line-height: 15px;
+    padding: 10px 0 0 0;
+
+}
+
+.header-nav {
+
+}
+
+.header-nav-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.header-nav-list-item {
+    padding: 0 38px 0 0;
+
+}
+
+.header-nav-list-item:last-child{
+    padding: 0;
+}
+
+.header-nav-link {
+    font-size: 15px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #CDCDCD;
+    transition: 0.5s;
+
+}
+
+.header-nav-link:hover {
+    color: #FAFAFA;
+}
+
+.active {
+    color: #FAFAFA;
+    border-bottom: 3px solid #F1CDB3;
+}
+
+.header-nav-link:active {
+    color: #FAFAFA;
+    border-bottom: 3px solid #F1CDB3;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    padding: 29px 40px 0 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-sideInfo {
+    display: flex;
+    flex-direction: column;
+    max-width: 279px;
+}
+
+.footer-sideInfo-title {
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.footer-sideInfo-email-link {
+    text-decoration: none;
+    color: #F1CDB3;
+    transition: 0.5s;
+}
+
+.footer-sideInfo-email-link:hover {
+    color: #fde4d1;
+}
+
+.footer-sideInfo-email-link:active {
+    color: #F1CDB3;
+}
+
+.footer-sideInfo-email {
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    padding: 40px 0 40px 0;
+    display: flex;
+    letter-spacing: 0.06em;
+}
+
+.footer-sideInfo-email::before {
+    content: url('../assets/image/mail.svg');
+    padding: 0 20px 0 0;
+}
+
+.footer-sideInfo-tel-link {
+    text-decoration: none;
+    color: #F1CDB3;
+    transition: 0.5s;
+}
+
+.footer-sideInfo-tel-link:hover {
+    color: #fde4d1;
+}
+
+.footer-sideInfo-tel-link:active {
+    color: #F1CDB3;
+}
+
+.footer-sideInfo-tel {
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    display: flex;
+    letter-spacing: 0.06em;
+}
+
+.footer-sideInfo-tel::before {
+    content: url('../assets/image/phone.svg');
+    padding: 0 20px 0 0;
+}
+
+.footer-centerInfo {
+    display: flex;
+    flex-direction: column;
+    max-width: 302px;
+}
+
+.footer-centerInfo-title {
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+
+}
+.footer-centerInfo-link {
+    text-decoration: none;
+    color: #F1CDB3;
+    transition: 0.5s;
+}
+
+.footer-centerInfo-link:hover {
+    color: #fde4d1;
+}
+
+.footer-centerInfo-link:active {
+    color: #F1CDB3;
+}
+
+.footer-centerInfo-boston {
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    padding: 40px 0 40px 0;
+    display: flex;
+    letter-spacing: 0.06em;
+
+}
+
+.footer-centerInfo-boston::before {
+    content: url('../assets/image/pin.svg');
+    padding: 0 20px 0 0;
+}
+
+.footer-centerInfo-london {
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    display: flex;
+    letter-spacing: 0.06em;
+}
+
+.footer-centerInfo-london::before {
+    content: url('../assets/image/pin.svg');
+    padding: 0 20px 0 0;
+}
+
+.footer-img {
+    padding: auto;
 }
