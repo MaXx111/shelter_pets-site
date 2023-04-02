@@ -669,3 +669,215 @@ html {
     content: url('../assets/image/pin.svg');
     padding: 0 20px 0 0;
 }
+
+
+@media (max-width: 1200px) {
+    .header__wrapper {
+        padding: 30px 30px 60px 30px;
+    }
+
+    .not-only__wrapper {
+        justify-content: center;
+        padding: 0px 30px 692px 30px;
+        background: url("../assets/image/media/start-screen-puppy-768.png") no-repeat 83% 100%;
+    }
+
+    .not-only__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .not-only__content__link {
+        align-self: center;
+    }
+
+    .about__wrapper {
+        justify-content: center;
+        padding: 80px 30px 587px 30px;;
+        background: url("../assets/image/media/about-pets-768.png") no-repeat 50% 84%;
+    }
+
+    .about__content {
+        padding-right: 0;
+    }
+
+    .pets__wrapper {
+        padding: 80px 30px 100px 30px;
+    }
+
+    .pets__title {
+        padding: 0 0 59px 0;
+    }
+
+    .slider__wrapper {
+        gap: 40px;
+    }
+
+    .help__wrapper {
+        padding: 80px 30px 100px 30px;
+    }
+
+    .help__list {
+        padding: 0;
+        gap: 55px 60px;
+    }
+
+    .help__list__item {
+        width: 170px;
+    }
+
+    .donation__wrapper {
+        padding: 79px 0 416px 0;
+        background: url("../assets/image/media/donation-dog-768.png") no-repeat 50% 81%;
+    }
+
+    .donation__content {
+        margin: 0;
+    }
+
+
+
+
+    .footer__wrapper {
+        padding: 30px 64px 366px 64px;
+        justify-content: space-between;
+        background: url("../assets/image/media/footer-puppy-768.png") no-repeat 50% 99%;
+    }
+
+
+    .footer__side-content {
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 1080px) {
+    .slider__article:last-child {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .header__wrapper{
+        padding: 30px 20px 60px 20px;
+        background: url("../assets/image/media/Burger.svg") no-repeat 93% 38%;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .not-only__wrapper {
+        padding: 0px 20px 300px 20px;
+        background: url("../assets/image/media/start-screen-puppy-320px.png") no-repeat 96% 100%;
+    }
+
+    .not-only__content {
+        align-items: center;
+    }
+
+
+
+
+    .slider__article:nth-child(2n) {
+        display: none;
+    }
+
+
+    .footer__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__side-content {
+        padding: 0 0 40px 0;
+    }
+}
+
+@media (max-width:480px) {
+
+    .not-only__wrapper {
+        padding: 0 10px 374px 10px;
+    }
+
+    .not-only__content__title {
+        max-width: 300px;
+        font-size: 25px;
+        text-align: center;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+
+    }
+
+    .not-only__content__text {
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+    .about__wrapper {
+        padding: 43px 25px 434px 25px;
+        background: url("../assets/image/media/about-pets-320.png") no-repeat 50% 93%;
+    }
+
+    .about__content__title {
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 0.06em;
+        line-height: 130%;
+    }
+
+    .about__content__text {
+        text-align: justify;
+        padding: 25px 0 23px 0;
+    }
+
+
+    .pets__wrapper {
+        padding: 42px 10px 42px 10px ;
+    }
+
+    .pets__title {
+        font-size: 25px;
+        padding: 0 0 42px 0;
+    }
+
+
+    .slider {
+        position: relative;
+        justify-content: center;
+    }
+
+    .slider__arrow {
+        position: absolute;
+        top: 452px;
+        left: 56px;
+    }
+
+    .right {
+        top: 452px;
+        left: 188px;
+    }
+
+    .pets__link {
+        margin: 108px 0 0 0;
+    }
+
+
+
+    .help__wrapper {
+        padding: 80px 15px 100px 15px;
+    }
+
+    .help__list {
+        max-width: 290px;
+        gap: 30px 30px;
+        margin: auto;
+        justify-content: flex-start;
+    }
+
+    .help__list__item {
+        max-width: 130px;
+    }
+}
