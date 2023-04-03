@@ -851,13 +851,13 @@ html {
 
     .slider__arrow {
         position: absolute;
-        top: 452px;
-        left: 56px;
+        top: 103%;
+        left: 18%;
     }
 
     .right {
-        top: 452px;
-        left: 188px;
+        top: 103%;
+        left: 63%;
     }
 
     .pets__link {
@@ -867,7 +867,12 @@ html {
 
 
     .help__wrapper {
-        padding: 80px 15px 100px 15px;
+        padding: 42px 15px 42px 15px;
+    }
+
+    .help__title {
+        font-size: 25px;
+        padding: 0 0 41px 0;
     }
 
     .help__list {
@@ -879,5 +884,118 @@ html {
 
     .help__list__item {
         max-width: 130px;
+        font-size: 15px;
+        line-height: 110%;
     }
+
+    .help__list__item::before {
+        display: block;
+        height: 50px;
+        width: 50px;
+        margin-bottom: 21px;
+    }
+
+    .item__food::before {
+        content: url("../assets/image/media/icon-pet-food-320.svg");
+    }
+
+    .item__transportation::before {
+        content: url("../assets/image/media/transportation-320.svg");
+    }
+
+    .item__toys::before {
+        content: url("../assets/image/media/toys-320.svg");
+    }
+
+    .item__cups::before {
+        content: url("../assets/image/media/bowls-and-cups-320.svg");
+    }
+
+    .item__shampoos::before {
+        content: url("../assets/image/media/shampoos-320.svg");
+    }
+
+    .item__vitamins::before {
+        content: url("../assets/image/media/vitamins-320.svg");
+    }
+
+    .item__medicines::before {
+        content: url("../assets/image/media/medicines-320.svg");
+    }
+
+    .item__leashes::before {
+        content: url("../assets/image/media/Collars/collars-or-leashes.svg");
+    }
+
+    .item__sleeping::before {
+        content: url("../assets/image/media/sleeping-area-320.svg");
+    }
+
+
+    .donation__wrapper {
+        padding: 42px 10px 217px 10px;
+        background: url("../assets/image/media/donation-dog320.png") no-repeat 50% 90%;
+    }
+
+    .donation__content__title {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .donation__content__text {
+        text-align: center;
+        letter-spacing: 0.006em;
+        padding: 0 0 24px 0;
+    }
+
+    .donation__content__link {
+        align-self: center;
+    }
+
+    .donation__content__link__text {
+        font-size: 15px;
+        line-height: 110%;
+        align-items: center;
+    }
+
+
+
+    .footer__wrapper {
+        padding: 30px 10px 300px 10px;
+        background: url("../assets/image/media/footer-puppy-320.png") no-repeat 50% 100%;
+    }
+
+    .footer__side-content {
+        align-items: center;
+        padding: 0 0 33px 0;
+
+    }
+
+    .footer__side-content__title {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .footer__side-content__email {
+        padding: 43px 0 40px 0;
+    }
+
+
+
+    .footer__center-content {
+        align-items: flex-start;
+    }
+
+    .footer__center-content__title {
+        max-width: 280px;
+        text-align: center;
+        align-self: center;
+        font-size: 25px;
+    }
+
+    .footer__center-content__boston {
+        padding: 40px 0 41px 0;
+    }
+
+
 }
